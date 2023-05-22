@@ -11,12 +11,12 @@ function App() {
 	return (
 		<AppProviders>
 			<div className="App">
-				{/* <Application /> */}
-				{/* <Skills skills={['HTML', 'CSS']} /> */}
-				{/* <Counter /> */}
+				<Application />
+				<Skills skills={['HTML', 'CSS']} />
+				<MuiMode />
+				<Counter />
 				<CounterTwo count={1} />
 				<Users />
-				{/* <MuiMode /> */}
 			</div>
 		</AppProviders>
 	)
